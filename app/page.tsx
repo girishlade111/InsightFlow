@@ -274,7 +274,7 @@ export default function FeedbackPage() {
       {/* Header */}
       <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
         <div>
-          <h1 className="text-3xl font-normal">v0 Feedback</h1>
+          <h1 className="text-3xl font-normal">InsightFlow</h1>
         </div>
         <Button onClick={openAddModal} className="hidden sm:flex">
           <PlusCircle className="mr-2 h-4 w-4" /> Add Feedback

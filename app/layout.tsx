@@ -10,8 +10,8 @@ import { Suspense } from "react"
 const geistSans = GeistSans({ subsets: ["latin"] }) // Changed variable name and font
 
 export const metadata: Metadata = {
-  title: "v0 Feedback App",
-  description: "Manage and track v0 feedback and feature requests for the v0 Feedback App.",
+  title: "InsightFlow",
+  description: "Manage and track v0 feedback and feature requests for the InsightFlow.",
   generator: "v0.dev",
   icons: {
     icon: "/favicon.ico",
@@ -19,22 +19,22 @@ export const metadata: Metadata = {
     apple: "/favicon.ico",
   },
   openGraph: {
-    title: "v0 Feedback App",
-    description: "Manage and track v0 feedback and feature requests for the v0 Feedback App.",
+    title: "InsightFlow",
+    description: "Manage and track v0 feedback and feature requests for the InsightFlow.",
     images: [
       {
         url: "/og-image.png",
         width: 1194,
         height: 834,
-        alt: "v0 Feedback App - Manage and track feedback and feature requests",
+        alt: "InsightFlow - Manage and track feedback and feature requests",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "v0 Feedback App",
-    description: "Manage and track v0 feedback and feature requests for the v0 Feedback App.",
+    title: "InsightFlow",
+    description: "Manage and track v0 feedback and feature requests for the InsightFlow.",
     images: ["/og-image.png"],
   },
 }

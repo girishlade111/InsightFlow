@@ -237,9 +237,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
+Girish Lade - [@girishlade111](https://twitter.com/girishlade111) - girishlade111@gmail.com
 
-Project Link: [https://github.com/your-username/insightflow](https://github.com/your-username/insightflow)
+Project Link: [https://github.com/girishlade111/insightflow](https://github.com/girishlade111/insightflow)
 
 ---
 
