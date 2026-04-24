@@ -27,41 +27,36 @@ function Logo() {
     <div className="flex items-center gap-2.5">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 44 44"
-        className="w-9 h-9"
+        viewBox="0 0 48 48"
+        className="w-10 h-10"
         fill="none"
       >
         <defs>
-          <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#3b82f6" />
-            <stop offset="100%" stopColor="#8b5cf6" />
-          </linearGradient>
-          <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stopColor="#ffffff" />
-            <stop offset="100%" stopColor="#e0e7ff" />
+          <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stopColor="#0ea5e9" />
+            <stop offset="50%" stopColor="#6366f1" />
+            <stop offset="100%" stopColor="#a855f7" />
           </linearGradient>
         </defs>
-        <rect x="2" y="2" width="40" height="40" rx="10" fill="url(#logoGrad)" />
+        <rect x="3" y="3" width="42" height="42" rx="12" fill="url(#bgGrad)" />
         <path
-          d="M14 28L22 20L30 28"
-          stroke="url(#arrowGrad)"
+          d="M16 30L24 22L32 30"
+          stroke="#ffffff"
           strokeWidth="2.5"
           strokeLinecap="round"
           strokeLinejoin="round"
           fill="none"
         />
         <path
-          d="M14 22L22 30L30 22"
-          stroke="url(#arrowGrad)"
+          d="M16 24L24 32L32 24"
+          stroke="#ffffff"
           strokeWidth="2.5"
           strokeLinecap="round"
           strokeLinejoin="round"
           fill="none"
-          opacity="0.5"
         />
-        <circle cx="22" cy="22" r="1.5" fill="#ffffff" />
       </svg>
-      <span className="text-xl font-semibold hidden sm:inline tracking-tight">InsightFlow</span>
+      <span className="text-xl font-bold hidden sm:inline tracking-tight">InsightFlow</span>
     </div>
   )
 }
