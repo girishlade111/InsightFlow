@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { Toaster } from "@/components/ui/toaster"
 import { Analytics } from "@vercel/analytics/react"
 import { Suspense } from "react"
+import { SocialFooter } from "@/components/social-footer"
 
 const geistSans = GeistSans({ subsets: ["latin"] }) // Changed variable name and font
 
@@ -46,13 +47,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={geistSans.className}>
+      <body className={geistSans.className + " min-h-screen flex flex-col"}>
         {" "}
         {/* Applied new font class */}
         <Suspense fallback={null}>
           <Analytics />
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
             {children}
+            <SocialFooter />
             <Toaster />
           </ThemeProvider>
         </Suspense>
