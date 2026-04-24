@@ -1,8 +1,8 @@
-# Feedback Hub
+# InsightFlow
 
 A modern, full-featured feedback application built with Next.js, React, and Supabase. Collect, manage, and analyze user feedback efficiently.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/easyweb/v0-feedback-hub)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/easyweb/v0-insightflow)
 [![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/EGRSkHH0hoJ)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-%233178C6?logo=typescript)](https://www.typescriptlang.org/)
@@ -29,7 +29,7 @@ A modern, full-featured feedback application built with Next.js, React, and Supa
 
 This repository stays in sync with your deployed chats on [v0.dev](https://v0.dev). Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
 
-**Live Demo:** [https://vercel.com/easyweb/v0-feedback-hub](https://vercel.com/easyweb/v0-feedback-hub)
+**Live Demo:** [https://vercel.com/easyweb/v0-insightflow](https://vercel.com/easyweb/v0-insightflow)
 
 ## Features
 
@@ -181,7 +181,7 @@ npm start
 ## Project Structure
 
 ```
-feedback-hub/
+insightflow/
 ├── .github/                 # GitHub workflows and templates
 ├── .husky/                  # Git hooks
 ├── components/              # Reusable UI components
@@ -239,7 +239,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Your Name - [@your_twitter](https://twitter.com/your_twitter) - email@example.com
 
-Project Link: [https://github.com/your-username/feedback-hub](https://github.com/your-username/feedback-hub)
+Project Link: [https://github.com/your-username/insightflow](https://github.com/your-username/insightflow)
 
 ---
 
