@@ -11,6 +11,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 import { Plus, PlusCircle, Search, MoreHorizontal, Copy, Edit, Trash2 } from "lucide-react"
 import AddFeedbackModal from "@/components/add-feedback-modal"
 import CategoryFilters from "@/components/category-filters"
+import { ThemeToggle } from "@/components/theme-toggle"
 import { type FeedbackItem, type FeedbackStatus, ALL_CATEGORIES, type FeedbackPriority } from "@/lib/types"
 import { useToast } from "@/components/ui/use-toast"
 import {
@@ -276,9 +277,12 @@ export default function FeedbackPage() {
         <div>
           <h1 className="text-3xl font-normal">InsightFlow</h1>
         </div>
-        <Button onClick={openAddModal} className="hidden sm:flex">
-          <PlusCircle className="mr-2 h-4 w-4" /> Add Feedback
-        </Button>
+        <div className="flex items-center gap-2">
+          <ThemeToggle />
+          <Button onClick={openAddModal} className="hidden sm:flex">
+            <PlusCircle className="mr-2 h-4 w-4" /> Add Feedback
+          </Button>
+        </div>
       </div>
 
       {/* Search */}
