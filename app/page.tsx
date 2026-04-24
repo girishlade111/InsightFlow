@@ -24,40 +24,44 @@ import {
 
 function Logo() {
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center gap-2.5">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 40 40"
-        className="w-8 h-8"
+        viewBox="0 0 44 44"
+        className="w-9 h-9"
         fill="none"
       >
         <defs>
-          <linearGradient id="logoBg" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#2563eb" />
-            <stop offset="100%" stopColor="#7c3aed" />
+          <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stopColor="#3b82f6" />
+            <stop offset="100%" stopColor="#8b5cf6" />
+          </linearGradient>
+          <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stopColor="#ffffff" />
+            <stop offset="100%" stopColor="#e0e7ff" />
           </linearGradient>
         </defs>
-        <rect width="40" height="40" rx="8" fill="url(#logoBg)" />
+        <rect x="2" y="2" width="40" height="40" rx="10" fill="url(#logoGrad)" />
         <path
-          d="M12 26 L20 18 L28 26"
-          stroke="white"
-          strokeWidth="3"
+          d="M14 28L22 20L30 28"
+          stroke="url(#arrowGrad)"
+          strokeWidth="2.5"
           strokeLinecap="round"
           strokeLinejoin="round"
           fill="none"
         />
         <path
-          d="M12 21 L20 29 L28 21"
-          stroke="white"
-          strokeWidth="3"
+          d="M14 22L22 30L30 22"
+          stroke="url(#arrowGrad)"
+          strokeWidth="2.5"
           strokeLinecap="round"
           strokeLinejoin="round"
           fill="none"
-          opacity="0.6"
+          opacity="0.5"
         />
-        <circle cx="20" cy="21" r="2" fill="white" />
+        <circle cx="22" cy="22" r="1.5" fill="#ffffff" />
       </svg>
-      <span className="text-xl font-semibold hidden sm:inline">InsightFlow</span>
+      <span className="text-xl font-semibold hidden sm:inline tracking-tight">InsightFlow</span>
     </div>
   )
 }
