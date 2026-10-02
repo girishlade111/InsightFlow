@@ -514,3 +514,6 @@ Connect with me:
 <p align="center">
   <sub>Built with ❤️ using <a href="https://v0.dev">v0.dev</a> and deployed on <a href="https://vercel.com">Vercel</a></sub>
 </p>
+---
+
+**Built by Girish Lade** — [ladestack.in](https://ladestack.in)
